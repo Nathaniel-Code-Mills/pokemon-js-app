@@ -25,6 +25,10 @@ pokemonRepository.getAll().forEach(function(pokemon) {
   document.write('<br>' + pokemon.name + ' (height: '+ pokemon.height + ')' + ' - This Pokemon is massive!');
 });
 
+//Adding a new pokemone with differenet keys and properties
+console.log(pokemonRepository.getAll());
+pokemonRepository.add({ name: 'Snorlax', height: .4, types: ["weird","tunneling"]  });
+console.log(pokemonRepository.getAll());
 
   document.write('<br>' + pokemon.name + ' (height: '+ pokemon.height + ')' + ' - This Pokemon is massive!');
 
