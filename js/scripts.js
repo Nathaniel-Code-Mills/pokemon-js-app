@@ -12,6 +12,7 @@ let pokemonRepository = (function () {
     showDetails: showDetails
   };
 })();
+//End of IIFE
 
 //forEach function looping through the repository
 pokemonRepository.getAll().forEach(function(pokemon) {
