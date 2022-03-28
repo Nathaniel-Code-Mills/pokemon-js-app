@@ -40,3 +40,9 @@ pokemonRepository.getAll().forEach(function(pokemon) {
   document.write('<br>' + pokemon.name + ' (height: '+ pokemon.height + ')' + ' - This Pokemon is massive!');
 });
 
+
+// Calling the function which creates the buttons for the pokemons
+pokemonRepository.getAll().forEach(function(pokemon) {
+  pokemonRepository.addListItem(pokemon);
+});
+
