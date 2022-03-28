@@ -6,6 +6,10 @@ let pokemonRepository = (function () {
     {name: 'Mewtwo', height: 2, types: ["flying", "psychic"]},
     ];
   return {
+    add: add,
+    getAll: getAll,
+    addListItem: addListItem,
+    showDetails: showDetails
   };
 })();
 
