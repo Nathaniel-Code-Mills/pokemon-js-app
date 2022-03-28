@@ -30,10 +30,19 @@ let pokemonRepository = (function () {
   }
 
   return {
+<<<<<<< HEAD
     add: add,
     getAll: getAll,
     addListItem: addListItem,
     showDetails: showDetails
+=======
+    add: function(pokemon) {
+      pokemonList.push(pokemon);
+    },
+    getAll: function() {
+      return pokemonList;
+    }
+>>>>>>> parent of ef4d019 (Removed add and getAll using this form)
   };
 })();
 //End of IIFE
