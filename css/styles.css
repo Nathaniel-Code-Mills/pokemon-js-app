@@ -99,3 +99,20 @@
     font-weight: 900;
 }
 
+.button-class {
+	background-color: #edc655;
+	border: #f76414;
+	color: white;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 8px 4px;
+	-webkit-transition-duration: .8s;
+	transition-duration: .8s;
+	cursor: pointer;
+	background-color: #f8ecdf;
+	color: black;
+	border: 2px solid blanchedalmond;
+}
