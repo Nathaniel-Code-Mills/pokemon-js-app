@@ -39,6 +39,7 @@ let pokemonRepository = (function () {
 //End of IIFE
 
 
+// Calling the function which creates the buttons for the pokemon and logs if they have been clicked on
 pokemonRepository.getAll().forEach(function(pokemon) {
   pokemonRepository.addListItem(pokemon);
 });
