@@ -1,4 +1,3 @@
-//IIFE Repository
 
 
 
@@ -126,9 +125,7 @@
 
 let pokemonRepository = (function () {
   function add(pokemon) {
-    pokemonList.push(pokemon);
   }
-  
   function getAll() {
     return pokemonList;
     let pokemonList = document.querySelector(".pokemon-list");
